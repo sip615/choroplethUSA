@@ -2,3 +2,8 @@
 	height: 400 px;
 	width: 900 px;
 }
+
+.countyPath {
+	fill: green;
+	stroke: white;
+}
