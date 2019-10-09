@@ -1,0 +1,23 @@
+{
+  "name": "d3",
+  "version": "1.0.0",
+  "description": "Choropleth Practice in d3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sip615/choroplethUSA.git"
+  },
+  "keywords": [
+    "d3",
+    "data_visualization"
+  ],
+  "author": "Sunil Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sip615/choroplethUSA/issues"
+  },
+  "homepage": "https://github.com/sip615/choroplethUSA#readme"
+}
