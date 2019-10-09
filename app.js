@@ -1,4 +1,7 @@
-prepData().then(res => {
-	console.log("finished preparing data!");
-	console.log(res);
+const geoAlbers = d3.geoAlbersUsa();
+
+const pathGenerator = d3.geoPath().projection(geoAlbers);
+
+prepData().then(resultCounties => {
+	prepMap(resultCounties);
 });

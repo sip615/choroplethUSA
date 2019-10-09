@@ -17,15 +17,15 @@ function prepData() {
 				counties.features.forEach(d => {
 					//get county id
 					let thisCountyID = d.id;
+					console.log(thisCountyID);
 
 					//assign 'countyName' key to the counties feature elements
-					d.countyName = csvData.filter(
-						csv => csv.fips == [thisCountyID]
-					)[0].county;
+					d.countyName = csvData.filter(csv => csv.fips == [thisCountyID])[0];
 
 					return d;
 				});
 				res(counties);
+				console.log(counties);
 			});
 		});
 	});
